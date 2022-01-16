@@ -8,11 +8,11 @@ DBI Package - A Brief Introduction
 
 The DBI package helps connecting R to database management systems (DBMS). DBI separates the connectivity to the DBMS into a “front-end” and a “back-end”. The package defines an interface that is implemented by DBI backends such as:
 
-    RPostgres,
-    RMariaDB,
-    RSQLite,
-    odbc,
-    bigrquery,
+            RPostgres,
+            RMariaDB,
+            RSQLite,
+            odbc,
+            bigrquery,
 and many more, see the list of backends. R scripts and packages use DBI to access various databases through their DBI backends.
 
 The interface defines a small set of classes and methods similar in spirit to Perl’s DBI, Java’s JDBC, Python’s DB-API, and Microsoft’s ODBC. It supports the following operations:
